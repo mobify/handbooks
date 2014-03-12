@@ -10,6 +10,6 @@ Discussed at the [Style & Class Meetup](http://meetup.com/styleandclass) on Marc
 - smoothen the handoff between multiple designers working on the same project/files 
 - help our developers find the right things quicker when diving into PSD comps
 
-The presentation slides were published on March 12th, 2014 are are available to [view the Speakerdeck](https://speakerdeck.com/jamesbull/anal-retentive-photoshop-habits-improve-your-flow-without-making-a-mess). 
+The presentation slides were published on March 12th, 2014 are available to [view on Speakerdeck.com](https://speakerdeck.com/jamesbull/anal-retentive-photoshop-habits-improve-your-flow-without-making-a-mess). 
 
 [View the Handbook](photoshop-handbook/photoshop-handbook.md)
