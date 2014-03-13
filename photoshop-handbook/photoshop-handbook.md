@@ -41,7 +41,7 @@ As identified by the diagram above, the style guide should actually consist of c
 Find the template on BOX:
 _Design Team > Assets (General) > UI Style Guide Template > style-guide-template.psd_
 
-![Styleguide.psd Example](asseets/styleguide.png)
+![Styleguide.psd Example](assets/styleguide.png)
 
 ## Layer Panel Options
 We've also got some great suggested layer panel options for you: 
