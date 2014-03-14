@@ -2,7 +2,13 @@
 
 A collection of Mobify's internal handbooks and styleguides. You may have heard about these documents and/or processes at some awesome meetup, or you may want to know how we do things at Mobify, or you may have just stumbled upon this repo by sheer luck, regardless, we're ready to share and you're ready to learn. 
 
-## Photoshop Handbook
+## [CSS Style Guide](css-handbook/CSS%20Style%20Guide.md)
+
+Our Client Services team's CSS Style Guide. Written with a lot of tender care by @kpeatt and @jeffkamo.
+
+[View the Handbook](/css-handbook/CSS%20Style%20Guide.md)
+
+## [Photoshop Handbook](photoshop-handbook/photoshop-handbook.md)
 
 Discussed at the [Style & Class Meetup](http://meetup.com/styleandclass) on March 11th, 2014 this Photoshop handbook has three benefits: 
 
