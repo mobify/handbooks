@@ -363,31 +363,32 @@ Prefix | Purpose | Scaffold Directory |
 `.x-` | Classes that start with `.x-` are generic class names that are neither a component or template. Most commonly these classes are used to identify Mobify defined states (i.e. `.x-hide`) or a generic entity that is not a component or template (i.e. `.x-base-h1`). | */src/scss/globals/*
 `.m-` | This class prefix is currently reserved for Mobify Modules. However, eventually we intend to deprecate this prefix entirely. At that time, our Mobify Modules will instead be prefixed by their module name. | */src/scss/components/vendor*
 
-# Us versus Them (aka There's an x-ception to every rule)
+## Us versus Them (aka There's an x-ception to every rule)
 
 It's important to remember that we don't write our own markup. We write a bastardized version of existing markup. In many cases, we're simply adding wrappers or class names to markup that already exists. Rarely, we'll completely re-template something.
 
 Knowing that, how do we make the decision to use our class names or their class names in our styling and how does that affect the way we write our CSS? If we're using their class names, we obviously can't follow the CEM/BEM syntax laid out above. We've laid out some situational advice below on when to use their class names and when to use ours. We also talk about ways to adjust the code style laid out above when using their class names.
 
-## When to use our selector naming scheme
+### When to use our selector naming scheme
 
-*Whenever you're writing your own markup in a template.
-*Whenever you're remixing or adding markup through the konf.
-*Whenever you're adding classes to existing markup.
-*Whenever you find yourself using @extend.
+* Whenever you're writing your own markup in a template.
+* Whenever you're remixing or adding markup through the konf.
+* Whenever you're adding classes to existing markup.
+* Whenever you find yourself using @extend.
 
-## When to use their existing selectors
+### When to use their existing selectors
+
 * Whenever possible — when you're not required to do any of the things above. It's faster and easier to use their markup than it is to add our own.
 * When their markup allows for it. For example, if they don't use classes or they don't use them with any consistency, it doesn't make sense to use their selectors.
 * When their markup isn't easily changed. AJAXed content or content added after a page is loaded is an example of this.
 
-## How to use their existing selectors in our components
+### How to use their existing selectors in our components
 
 This is a list of rules to use when you're using their selectors within our modules section. 
 
 > Remember, it's okay to mix our selector naming scheme with their selector naming scheme. If you have to add a class to a subcomponent, use our subcomponent naming scheme and place it in the standard spot in the file.
 
-### Always wrap the module with our naming scheme
+#### Always wrap the module with our naming scheme
 
 ```scss
 // Do
@@ -403,7 +404,7 @@ This is a list of rules to use when you're using their selectors within our modu
 } 
 ```
 
-### Subcomponents should be directly inside their parent component where possible. Constantly evaluate your nest in this situation.
+#### Subcomponents should be directly inside their parent component where possible. Constantly evaluate your nest in this situation.
 
 ```scss
 // Do
@@ -423,7 +424,7 @@ This is a list of rules to use when you're using their selectors within our modu
 } 
 ```
 
-### Use their modifiers the same way you would use our modifiers. Chain it to the component or subcomponent it directly affects.
+#### Use their modifiers the same way you would use our modifiers. Chain it to the component or subcomponent it directly affects.
 
 ```scss
 // Do
