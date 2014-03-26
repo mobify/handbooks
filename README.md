@@ -8,6 +8,12 @@ Our Client Services team's CSS Style Guide. Written with a lot of tender care by
 
 [View the Handbook](/css-handbook/CSS%20Style%20Guide.md)
 
+## [CSS Tips & Tricks](css-handbook/CSS%20Tips%20and%20Tricks.md)
+
+A collection of our favourite CSS snippets that prevent us from pulling our hair out. Things like vertically centering, dealing with full-screen modal windows, and more.
+
+[View the Guide](css-handbook/CSS%20Tips%20and%20Tricks.md)
+
 ## [Photoshop Handbook](photoshop-handbook/photoshop-handbook.md)
 
 Discussed at the [Style & Class Meetup](http://meetup.com/styleandclass) on March 11th, 2014 this Photoshop handbook has three benefits: 
