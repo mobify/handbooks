@@ -25,3 +25,7 @@ Discussed at the [Style & Class Meetup](http://meetup.com/styleandclass) on Marc
 The presentation slides were published on March 12th, 2014 are available to [view on Speakerdeck.com](https://speakerdeck.com/jamesbull/anal-retentive-photoshop-habits-improve-your-flow-without-making-a-mess). 
 
 [View the Handbook](photoshop-handbook/photoshop-handbook.md)
+
+## License
+
+Copyright (c) 2014 Mobify Research & Development. See the LICENSE file for license rights and limitations (MIT).
