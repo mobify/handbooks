@@ -2,6 +2,8 @@
 
 This document is meant to guide designers in how to structure and maintain their photoshop documents. Consider this your handbook to our best practices, tips and tricks, and organizational structure for Photoshop. Sticking to these guidelines will help communication between individual designers as well as developers during the design & engineering phases of a project.
 
+*Developed with love by the [Mobify Design Team](http://mobify.com/)*
+
 ## Content
 For the love of god, use REAL content wherever possible. Our clients have content we can use, so do so. Using real content will help you understand:
 
