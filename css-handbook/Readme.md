@@ -99,7 +99,7 @@ p:empty {
 }
 ```
 
-### Centering Modals
+## Centering Modals
 One generally reliable way to do these is to use table display.
 Feel free to add others.
 
@@ -250,3 +250,16 @@ $('.tabs-container').attr('style', null);
 // If anyone thinks of something, please feel free to re-write this!
 ```
 
+## Increasing Specificity
+### Scenario
+Need to increase specificity so our styles get applied
+### Problem
+`!important` should be used sparingly as a last resort, generally only to overwrite inline styles
+### Solution
+Use the `:nth-child` selector, with 1n for Android support
+### Code
+```
+.class-name:nth-child(1n) {
+  ...
+}
+```
