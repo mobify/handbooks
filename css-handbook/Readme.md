@@ -254,9 +254,9 @@ $('.tabs-container').attr('style', null);
 ### Scenario
 Need to increase specificity so our styles get applied
 ### Problem
-!important should be used sparingly as a last resort, generally only to overwrite inline styles
+`!important` should be used sparingly as a last resort, generally only to overwrite inline styles
 ### Solution
-Use the nth-child selector, with 1n for Android support
+Use the `:nth-child` selector, with 1n for Android support
 ### Code
 ```
 .class-name:nth-child(1n) {
