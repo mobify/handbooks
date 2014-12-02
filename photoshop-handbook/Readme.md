@@ -21,7 +21,7 @@ You have no excuse now. Go forth and use REAL CONTENT!
 
 ## Setup for Retina Mockups
 
-Mockups should be created a 2× resolution by default. This can make thinking in consistent units hard (2px in PSD == 1px in CSS). The recommended way to ease this pain is to set up Photoshop documents to use `pt` units, as follows:
+Mockups should be created at 2× resolution by default. This can make thinking in consistent units hard (2px in PSD == 1px in CSS). The recommended way to ease this pain is to set up Photoshop documents to use `pt` units in such a way that 1pt in Photoshop equals 1px in CSS:
 
 1. When creating a new document, set the Resolution to 144px/inch. If updating an existing document, do this in _Image > Image Size_ (make sure Resample is disabled).
 
