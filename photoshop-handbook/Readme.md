@@ -18,7 +18,24 @@ You have no excuse now. Go forth and use REAL CONTENT!
 
 ![Content Example](assets/content.png)
 
+
+## Setup for Retina Mockups
+
+Mockups should be created at 2× resolution by default. This can make thinking in consistent units hard (2px in PSD == 1px in CSS). The recommended way to ease this pain is to set up Photoshop documents to use `pt` units in such a way that 1pt in Photoshop equals 1px in CSS:
+
+1. When creating a new document, set the Resolution to 144px/inch. If updating an existing document, do this in _Image > Image Size_ (make sure Resample is disabled).
+
+2. Open _Photoshop > Preferences > Units and Rulers_.
+    1. In the Units fieldset, change both Rulers and Type to Points.
+    2. In the New Document Preset Resolutions fieldset, change the Screen Resolution to 144px/inch.
+
+3. In _Photoshop > Preferences > Guides, Grid and Slices_, **Make sure** to leave the Gridline and Subdivision settings in **pixel** units, not points. Using point for snapping is buggy and will lead to errors. Example: if you want gridlines every 8 points, set this value to 16 pixels.
+
+Note: some palettes and inputs (such as Transform) do not respect the unit preferences. However, they do remember the last unit used so as you work in points they will come to reflect the new preferred unit.
+
+
 ## Modules & Linked Smart Objects
+
 Photoshop CC now supports linked smart objects. Following in the footsteps of InDesign and Illustrator, users can now drop linked files into Photoshop documents. When a linked smart object has been placed in a PSD, Photoshop will detect changes to this linked file and you can update them as needed across all PSD's. This allows us to modularize our elements in a similar fashion to the way our CSS has been modularized.
 
 Please break up your PSD's into logical modules and place these modules as linked smart objects in your PSD's. Here's how to place a linked smart object:
