@@ -33,6 +33,8 @@ Mockups should be created at 2× resolution by default. This can make thinking i
 
 Note: some palettes and inputs (such as Transform) do not respect the unit preferences. However, they do remember the last unit used so as you work in points they will come to reflect the new preferred unit.
 
+### Resources for creating Mocks
+* [iPhone 5 Web Grid (PSD)](https://www.dropbox.com/s/6944ymdxx7kotp6/iphone5-web-grid.psd?dl=1)
 
 ## Modules & Linked Smart Objects
 
