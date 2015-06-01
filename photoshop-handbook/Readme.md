@@ -18,7 +18,6 @@ You have no excuse now. Go forth and use REAL CONTENT!
 
 ![Content Example](assets/content.png)
 
-
 ## Setup for Retina Mockups
 
 Mockups should be created at 2× resolution by default. This can make thinking in consistent units hard (2px in PSD == 1px in CSS). The recommended way to ease this pain is to set up Photoshop documents to use `pt` units in such a way that 1pt in Photoshop equals 1px in CSS:
